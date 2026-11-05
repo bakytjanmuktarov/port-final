@@ -1,0 +1,167 @@
+/* ---------- КНОПКА ТЕМЫ ---------- */
+.theme-btn {
+  position: fixed;          /* всегда на экране, даже при прокрутке */
+  right: 30px;
+  bottom: 30px;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  border: 2px solid black;
+  background: white;
+  font-size: 32px;
+  cursor: pointer;
+  z-index: 50;
+}
+body.dark {
+  background: #111;
+  color: white;
+}
+
+body.dark a {
+  color: white;
+}
+
+body.dark .credit {
+  color: white;
+}
+
+body.dark .arrow,
+body.dark .arrow-right {
+  border-color: white;
+}
+
+body.dark .footer {
+  background: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+}
+
+body.dark .theme-btn {
+  background: #1c1c1c;
+  border-color: white;
+}
+
+.modal {
+  display: none;       
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7); 
+  align-items: center;
+  justify-content: center;
+  z-index: 100;
+}
+
+.modal.open {
+  display: flex;
+}
+
+.modal-box {
+  position: relative;
+  width: 1000px;
+  max-height: 90%;
+  overflow: auto;
+  background: white;
+  color: black;
+  border-radius: 42px;
+  padding: 40px;
+}
+
+.modal-close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  font-size: 60px;
+  line-height: 1;
+  border: none;
+  background: none;
+  color: inherit;
+  cursor: pointer;
+  z-index: 2;
+}
+
+.modal-img {
+  width: 100%;
+  height: 450px;
+  object-fit: cover; 
+  border-radius: 24px;
+  display: block;
+  background: #9a9c9e;
+}
+
+.modal-img.contain {
+  object-fit: contain;
+  background: #f6f6f2;
+}
+
+.modal-box h3 {
+  font-size: 60px;
+  font-weight: 400;
+  margin-top: 30px;
+}
+
+.modal-box p {
+  font-size: 30px;
+  line-height: 1.5;
+  margin-top: 16px;
+}
+
+.modal-link {
+  display: inline-block;
+  font-size: 32px;
+  margin-top: 24px;
+  text-decoration: underline;
+}
+
+body.dark .modal-box {
+  background: #1c1c1c;
+  color: white;
+}
+
+.gallery {
+  margin-top: 300px;
+}
+
+.gallery-title {
+  font-size: 100px;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+
+.gallery-box {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.gallery-img {
+  width: 1100px;
+  height: 620px;
+  object-fit: cover;
+  border-radius: 42px;
+  background: #9a9c9e;
+  display: block;
+}
+
+.gallery-btn {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 2px solid black;
+  background: white;
+  color: black;
+  font-size: 50px;
+  cursor: pointer;
+}
+
+.gallery-count {
+  font-size: 30px;
+  margin-top: 20px;
+}
+
+body.dark .gallery-btn {
+  background: #1c1c1c;
+  color: white;
+  border-color: white;
+}

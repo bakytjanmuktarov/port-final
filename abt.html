@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About me</title>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="abt.css">
+  <link rel="stylesheet" href="all.css">
+</head>
+<body>
+  <span class="credit">◎ Code by baha</span>
+  <main class="content">
+    <section class="about">
+        <h1>
+            About me <br>
+            Bakytjan Muktarov 17 y.o. <br>
+            know python, html, js, css and little bit of java <br>
+        </h1>
+    </section>
+    <div class="projects-top">
+      <h2>My Projects</h2>
+      <span class="note">HERE'S A SELECTION OF MY PROJECTS</span>
+    </div>
+    <div class="projects">
+      <a class="card" id="card1" href="index.html">
+        <div class="card-box">
+          <img src="img/Gemini_Generated_Image_gt53rlgt53rlgt53.png" alt="Portfolio">
+        </div>
+        <p class="card-title"><span class="arrow-right">→</span> This portfolio</p>
+      </a>
+      <a class="card" id="card2" href="https://drive.google.com/drive/folders/1xpKQ9mWrRmGW_sbAQ3_jnDmSbVok6qne">
+        <div class="card-box light">
+          <img class="logo" src="img/image.png" alt="HandTalk">
+        </div>
+        <p class="card-title"><span class="arrow-right">→</span> Handtalk</p>
+      </a>
+    </div>
+
+    <section class="gallery">
+      <h2 class="gallery-title">My photos</h2>
+      <div class="gallery-box">
+        <button class="gallery-btn" id="gallery-prev" type="button">←</button>
+        <img class="gallery-img" id="gallery-img" src="img/WhatsApp Image 2026-11-05 at 09.12.27.jpeg" alt="Photo">
+        <button class="gallery-btn" id="gallery-next" type="button">→</button>
+      </div>
+      <p class="gallery-count" id="gallery-count">1 / 3</p>
+    </section>
+
+    <!-- глаза от всего текста устали -->
+    <section class="contacts">
+      <p class="end">That's all for now.</p>
+      <h2 class="mycont">MY CONTACTS</h2>
+      <div class="ryad">
+        <div class="dannye">
+          <span class="jb">instagram</span>
+          <a href="https://www.instagram.com/mm.bkww/">mm.bkww</a>
+        </div>
+        <div class="dannye">
+          <span class="jb">Telegram</span>
+          <a href="https://t.me/zmatikoo">@Zmatikoo</a>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="mininav">
+      <a href="index.html">home</a>
+      <a href="skills.html">my skills</a>
+    </div>
+    <p class="friend">your friendly</p>
+    <p class="nickname">Zmatikoo</p>
+  </footer>
+
+  <div class="modal" id="modal">
+    <div class="modal-box">
+      <button class="modal-close" id="modal-close" type="button">×</button>
+      <img class="modal-img" id="modal-img" src="" alt="">
+      <h3 id="modal-title"></h3>
+      <p id="modal-text"></p>
+      <a class="modal-link" id="modal-link" href="#" target="_blank">Open project →</a>
+    </div>
+  </div>
+
+  <button class="theme-btn" type="button">🌙</button>
+  <script src="app.js"></script>
+</body>
+</html>

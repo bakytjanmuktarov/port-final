@@ -1,0 +1,67 @@
+.theme-btn {
+  position: fixed; 
+  right: 30px;
+  bottom: 30px;
+  width: 70px;
+  height: 70px;
+  border-radius: 200px;
+  border: 2px solid black;
+  background: white;
+  font-size: 32px;
+  cursor: pointer;
+  z-index: 50;
+}
+body.dark {
+  background: #111;
+  color: white;
+}
+
+body.dark a {
+  color: white;
+}
+
+body.dark .credit {
+  color: white;
+}
+
+body.dark .arrow,
+body.dark .arrow-right {
+  border-color: white;
+}
+
+body.dark .footer {
+  background: black;
+  color: white;
+}
+
+body.dark .theme-btn {
+  background: #1c1c1c;
+  border-color: white;
+}
+body.dark .skills {
+  background: white;
+  color: black;
+}
+ 
+body.dark .skills .credit {
+  color: black;
+}
+ 
+/* карточки */
+body.dark .skill-card-first,
+body.dark .skill-card-sec,
+body.dark .skill-card-third,
+body.dark .skill-card-fourth {
+  background: #ececec;
+}
+ 
+/* круглая подложка под иконками */
+body.dark .icon,
+body.dark .iconf {
+  background: #d4d4d4;
+}
+ 
+/* серый текст описания делаем темнее, чтобы читался на светлом */
+body.dark .skill-text {
+  color: #555;
+}

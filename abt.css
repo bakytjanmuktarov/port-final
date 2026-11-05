@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "DM Sans", sans-serif;
+  background: white;
+  color: black;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+.credit {
+  position: absolute;
+  top: 47px;
+  left: 61px;
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+}
+.content {
+  padding: 215px 0px 120px 133px;
+}
+.about h1{
+  font-size: 80px;
+  font-weight: 400;
+}
+.projects-top {
+  display: flex;                  
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-top: 300px;
+  margin-bottom: 18px;
+  padding-right: 170px;
+}
+.projects-top h2 {
+  font-size: 100px;
+  font-weight: 400;
+}
+.note {
+  font-size: 22px;
+}
+.projects {
+  display: flex;
+  gap: 40px;
+}
+.card {
+  width: 807px;
+}
+.card-box {
+  position: relative;
+  width: 807px;
+  height: 470px;
+  border-radius: 42px;
+  overflow: hidden;
+  background: #9a9c9e;
+}
+.card-box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+}
+.card-title {
+  font-size: 40px;
+  margin-top: 10px;
+}
+.arrow-right {
+  display: inline-block;
+  width: 36px;
+  height: 36px;
+  border: 1px solid black;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 30px;
+  font-size: 36px;
+  margin-right: 30px;
+}
+/*покайфуспатьиду*/
+.contacts {
+  margin-top: 420px;
+}
+
+.end {
+  font-size: 20px;
+}
+
+.mycont {
+  font-size: 77px;
+  font-weight: 400;
+  margin-top: 8px;
+  margin-bottom: 30px;
+}
+
+.ryad {
+  display: flex;
+}
+
+.dannye {
+  width: 450px;
+}
+.jb {
+  display: block;
+  font-size: 16px;
+  margin-bottom: 16px;
+}
+.dannye a {
+  font-size: 32px;
+}
+.footer {
+  position: relative;
+  background: black;
+  color: white;
+  padding: 20px 17px 14px;
+  overflow: hidden;
+}
+.mininav {
+  position: absolute;
+  top: 6px;
+  right: 8px;
+  text-align: right;
+  font-size: 50px;
+}
+
+.mininav a {
+  color: white;
+  display: block;
+}
+
+.friend {
+  font-size: 100px;
+  margin-top: 10px;
+}
+
+.nickname {
+  font-size: 300px;
+  line-height: 1;
+  margin-top: 6px;
+}

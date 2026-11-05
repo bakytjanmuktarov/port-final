@@ -1,0 +1,150 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "DM Sans", sans-serif;
+  background: white;
+  color: black;
+}
+a {
+  color: black;
+  text-decoration: none;
+}
+.hero {
+  position: relative;
+  background: #9a9c9e;
+  overflow: hidden;
+}
+.hero img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.credit {
+  position: absolute;
+  top: 47px;
+  left: 61px;
+  font-size: 20px;
+  color: white;
+}
+.hero-text {
+  position: absolute;
+  top: 52%;
+  right: 0;
+  font-size: 300px;
+  font-weight: 400;
+  line-height: 1;
+  color: white;
+  white-space: nowrap;
+}
+.content {
+  padding: 40px 33px 55px;
+}
+.about-text {
+  width: 974px;
+  font-size: 40px;
+  margin-left: 133px;
+}
+.more {
+  display: block;
+  text-align: right;
+  font-size: 30px;
+  margin-top: 20px;
+}
+.arrow {
+  display: inline-block;
+  width: 36px;
+  height: 36px;
+  border: 1px solid black;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 36px;
+  font-size: 36px;
+  margin-left: 6px;
+}
+.arrow-right {
+  display: inline-block;
+  width: 36px;
+  height: 36px;
+  border: 1px solid black;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 30px;
+  font-size: 36px;
+  margin-right: 30px;
+}
+/*я очень устал*/
+.projects-top {
+  display: flex;                  
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-top: 40px;
+  margin-bottom: 18px;
+}
+.projects-top h2 {
+  font-size: 100px;
+  font-weight: 400;
+  margin-left: 133px;
+}
+.note {
+  font-size: 22px;
+}
+.projects {
+  display: flex;
+  gap: 40px;
+  margin-left: 133px;
+}
+.card {
+  width: 807px;
+}
+.card-box {
+  position: relative;
+  width: 807px;
+  height: 470px;
+  border-radius: 42px;
+  overflow: hidden;
+  background: #9a9c9e;
+}
+.card-box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+}
+.card-title {
+  font-size: 40px;
+  margin-top: 10px;
+}
+.footer {
+  position: relative;
+  background: black;
+  color: white;
+  padding: 20px 17px 14px;
+  overflow: hidden;
+}
+.mininav {
+  position: absolute;
+  top: 6px;
+  right: 8px;
+  text-align: right;
+  font-size: 50px;
+}
+
+.mininav a {
+  color: white;
+  display: block;
+}
+
+.friend {
+  font-size: 100px;
+  margin-top: 10px;
+}
+
+.nickname {
+  font-size: 300px;
+  line-height: 1;
+  margin-top: 6px;
+}
